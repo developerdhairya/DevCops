@@ -1,0 +1,45 @@
+.rowHeader {
+  margin-top: 60px;
+  border: 10px solid #d6c6c6;
+}
+
+.mainCol {
+  min-height: calc(100vh - 80px);
+  max-height: calc(100vh - 80px);
+  overflow-y: hidden;
+}
+
+.scrollableBox {
+  height: 87%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.closebtn {
+  font-size: 2em;
+  cursor: pointer;
+  background-color: transparent;
+  color: #d6c6c6;
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 80%;
+  top: 2%;
+}
+
+.closebtn:active,
+.openbtn:active {
+  outline: none;
+}
+
+.openbtn {
+  font-size: 2em;
+  cursor: pointer;
+  background-color: transparent;
+  color: #d6c6c6;
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
